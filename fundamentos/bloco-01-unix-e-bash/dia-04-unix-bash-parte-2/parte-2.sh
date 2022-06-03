@@ -27,3 +27,5 @@ echo "5)Volte à permissão do arquivo bunch_of_things.txt para a listada inicia
 
 chmod 644 bunch_of_things.txt
 
+
+clear
