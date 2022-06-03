@@ -77,3 +77,5 @@ echo "11)Ordene o arquivo bunch_of_things.txt."
 
 sort -o bunch_of_things.txt bunch_of_things.txt
 
+
+clear
