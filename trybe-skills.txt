@@ -1,3 +1,13 @@
+trybe-skills-update
+O que eu vou aprender na Trybe:
+
+-Unix
+-Bash
+-Git
+-HTML
+-CSS
+-JavaScript
+=======
 O que vou aprender na Trybe:
 
 - Unix
@@ -5,3 +15,4 @@ O que vou aprender na Trybe:
 - Git
 - HTML
 - CSS
+ main
