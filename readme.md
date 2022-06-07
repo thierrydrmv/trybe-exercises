@@ -17,3 +17,11 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 2.1 - Git & Github - O que é e para que serve
 - [x] 2.2 - Git & Github - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
+
+#### [Bloco 03: Introdução - HTML e CSS](https://github.com/thierrydrmv/trybe-exercises/tree/main/fundamentos/bloco-03-introducao-html-css/)
+- [] 3.1 - Introdução - HTML & CSS
+- [] 3.1 - HTML & CSS - Estruturas de página
+- [] 3.2 - HTML & CSS - Primeiros passos em CSS
+- [] 3.3 - HTML & CSS - Seletores e posicionamento
+- [] 3.4 - HTML Semântico
+- [] 3.5 - Projeto - Lessons Learned
