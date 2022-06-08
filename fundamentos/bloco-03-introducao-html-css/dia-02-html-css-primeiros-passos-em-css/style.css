@@ -1,0 +1,46 @@
+h1 {
+    /*  1.1 Modifique o tamanho do h1 para 65 pixels */
+        font-size: 65px;
+    /*  2.1 Modifique a cor do texto do h1 para laranja */
+        color: orange;
+    /*  1.2 Modifique o font-family do h1 para sans-serif */
+        font-family: sans-serif;
+    }
+    
+    #colors {
+    /*  3.1 Modifique a cor de fundo da lista não ordenada */
+        background-color: rgb(71, 111, 103);
+    }
+    /*  2.2 Deixe o parágrafo com o font-weight 600 */
+    p {
+        font-weight: 600;
+    }
+    /*  4.1 Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo */
+    p, ul {
+        background-color: aquamarine;
+    }
+    /*  3.2 Modifique o font-size do body para 16px */
+    body {
+        font-size: 16px;
+    }
+    /*  4.2 Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body */
+    p {
+        font-size: 3em;
+    }
+    ul {
+    /*  5.2  Explore as propriedades font-style, line-height, text-align e text-decoration */
+        font-family: monospace;
+        line-height: 30px;
+        text-align: left;
+        text-decoration: overline underline;
+    }
+    /*  6.2  Troque a cor de fundo de cada item da lista para a cor correspondente ao texto */
+    #yellow {
+        background-color: yellow;
+    }
+    #red {
+        background-color: red;
+    }
+    #brown {
+        background-color: brown;
+    }
