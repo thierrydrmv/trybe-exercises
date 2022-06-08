@@ -20,7 +20,7 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 #### [Bloco 03: Introdução - HTML e CSS](https://github.com/thierrydrmv/trybe-exercises/tree/main/fundamentos/bloco-03-introducao-html-css/)
 - [x] 3.1 - Introdução - HTML & CSS
-- [] 3.1 - HTML & CSS - Estruturas de página
+- [x] 3.1 - HTML & CSS - Estruturas de página
 - [] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [] 3.3 - HTML & CSS - Seletores e posicionamento
 - [] 3.4 - HTML Semântico
