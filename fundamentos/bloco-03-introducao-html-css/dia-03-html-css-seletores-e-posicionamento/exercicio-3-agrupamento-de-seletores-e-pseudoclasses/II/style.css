@@ -1,0 +1,31 @@
+div:hover {
+    border: 3px solid black;
+}
+h3 {
+    font-family: monospace;
+}
+
+#prim{
+    color: blue;
+}
+
+#secun{
+    color: blueviolet;
+}
+
+#compl{
+    color: orange;
+    font-size: 1.4rem;
+}
+
+#escura{
+    color: gray;
+}
+
+#clara{
+    color: greenyellow;
+}
+
+#prim, #compl, #clara {
+    font-style: italic;
+}
