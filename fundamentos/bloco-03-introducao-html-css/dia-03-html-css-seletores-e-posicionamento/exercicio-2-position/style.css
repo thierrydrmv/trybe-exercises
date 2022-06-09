@@ -3,9 +3,9 @@
   }
   
   .goomba {
+    position: relative;
     width: 130px;
-    right: 10px;
-    
+    left: 30px;
   }
   
   .baloon {
@@ -23,4 +23,6 @@
   .bowser {
     width: 600px;
     margin-left: 180px;
+    position: absolute;
+
   }
