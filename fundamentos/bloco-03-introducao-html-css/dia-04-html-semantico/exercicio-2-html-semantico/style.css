@@ -1,0 +1,33 @@
+nav ul li{
+    display: inline;
+    margin: 5px;
+}
+
+#container {
+    margin: 100px;
+}
+
+#sobre img {
+    display: inline;
+    width: 200px;
+}
+
+#apendice img {
+    display: inline;
+    width: 200px;
+}
+
+#aquario img {
+    display: inline;
+    width: 200px;
+}
+
+#colorido img {
+    display: inline;
+    width: 200px;
+}
+
+p {
+    float: left;
+    width: 300px;
+}
