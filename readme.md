@@ -24,4 +24,4 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletores e posicionamento
 - [x] 3.4 - HTML Semântico
-- [] 3.5 - Projeto - Lessons Learned
+- [x] 3.5 - Projeto - Lessons Learned
