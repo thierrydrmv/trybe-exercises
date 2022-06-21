@@ -26,7 +26,7 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 3.4 - HTML Semântico
 - [x] 3.5 - Projeto - Lessons Learned
 
-#### [Bloco 04: Introdução à JavaScript e Lógica de Programação]()
+#### [Bloco 04: Introdução à JavaScript e Lógica de Programação](https://github.com/thierrydrmv/trybe-exercises/tree/main/fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao/)
 
 - [x] 4.1 Introdução - JavaScript
 - [x] 4.1 Javascript - Primeiros passos
