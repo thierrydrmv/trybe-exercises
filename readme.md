@@ -24,4 +24,13 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletores e posicionamento
 - [x] 3.4 - HTML Semântico
-- [] 3.5 - Projeto - Lessons Learned
+- [x] 3.5 - Projeto - Lessons Learned
+
+#### [Bloco 04: Introdução à JavaScript e Lógica de Programação]()
+
+- [] 4.1 Introdução - JavaScript
+- [] 4.1 Javascript - Primeiros passos
+- [] 4.2 Javascript - Array e loop For
+- [] 4.3 Javascript - Lógica de Programação e Algoritmos
+- [] 4.4 Javascript - Objetos e funções
+- [] 4.5 Projeto - Playground Functions
