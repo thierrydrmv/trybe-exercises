@@ -1,0 +1,55 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+body {
+    background-color: rgb(253, 251, 251);
+    width: 70vw;
+    margin-left: 250px;
+  }
+  
+  #container {
+    display: flex;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+  }
+  
+  #minha_foto {
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 50px;
+    padding: 30px;
+  }
+  
+  article , aside {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  
+  aside {
+    margin-top: 410px;
+  }
+  
+  table td , th {
+    font-size: 30px;
+    text-align: center;
+    border: black solid 2px;
+  }
+  
+  h1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  li {
+    color: green;
+    font-size: 25px;
+  }
+  
+  a {
+    font-size: 40px;
+  }
