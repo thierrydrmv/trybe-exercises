@@ -33,4 +33,3 @@ console.log("A jogadora", player.name, player.lastName, "foi eleita a melhor do 
 // 2 medalhas de ouro e 3 medalhas de prata".
 console.log("A jogadora possui", player.medals.golden, "medalhas de ouro e", player.medals.silver, "Medalhas de prata")
 
-console.log(player)
