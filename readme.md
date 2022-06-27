@@ -33,4 +33,4 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 4.2 Javascript - Array e loop For
 - [x] 4.3 Javascript - Lógica de Programação e Algoritmos
 - [x] 4.4 Javascript - Objetos e funções
-- [] 4.5 Projeto - Playground Functions
+- [x] 4.5 Projeto - Playground Functions
