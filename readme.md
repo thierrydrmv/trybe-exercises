@@ -34,3 +34,14 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 4.3 Javascript - Lógica de Programação e Algoritmos
 - [x] 4.4 Javascript - Objetos e funções
 - [x] 4.5 Projeto - Playground Functions
+
+#### [Bloco 05: JavaScript: DOM, Eventos e Web Storage]()
+- [x] 5.1 JavaScript - DOM e seletores
+- [] 5.2 JavaScript - Trabalhando com elementos
+- [] 5.3 JavaScript - Eventos
+- [] 5.4 JavaScript - Web Storage
+- [] 5.5 [Projeto - Arte com Pixels]
+- [] 5.6 [Projeto - Lista de tarefas]
+- [] 5.7 [(Bônus) Projeto - Meme Generator]
+- [] 5.7 [(Bônus) Projeto - Adivinhe a Cor]
+- [] 5.7 [(Bônus) Projeto - Carta Misteriosa]
