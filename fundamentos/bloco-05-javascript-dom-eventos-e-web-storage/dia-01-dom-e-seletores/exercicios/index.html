@@ -43,7 +43,7 @@
     </main>
     <script>
       function descricao() {
-        let resposta = document.getElementsByTagName('p')[0].innerText = 'Programando em inglês em alguma vaga internacional!'
+        let resposta = document.getElementsByTagName('p')[1].innerText = 'Programando em inglês em alguma vaga internacional!'
         return resposta
       }
       descricao()
@@ -71,11 +71,11 @@
       }
       maiusculo()
       function texto() {
-        let ps = document.getElementsByTagName('p')
-        for (let p of ps) {
-        console.log(p.innerText)
+        let texto = document.getElementsByTagName('p')
+        for (let i of texto) {
+        console.log(i.innerText)
       }
-        return ps
+        return texto
       }
       texto()
        
