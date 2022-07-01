@@ -57,7 +57,63 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      //🚀 1. Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
+      let body = document.body
+      let bodyH1 = document.createElement('h1');
+      bodyH1.innerText = 'Exercício 5.2 - JavaScript DOM';
+      body.appendChild(bodyH1)
+      //🚀 2. Adicione a tag main com a classe main-content como filho da tag body;
+      let bodyMain = document.createElement('main');
+      bodyMain.className = 'center-content';
+      body.appendChild(bodyMain)
+      //🚀 3. Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+      let main = document.getElementsByTagName('main')[0];
+      let createSection = document.createElement('section');
+      createSection.className = 'center-content';
+      main.appendChild(createSection)
+      //🚀 4. Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+      let section = document.getElementsByTagName('section')[0]
+      let pOi = document.createElement('p')
+      pOi.innerText = "Olá";
+      section.appendChild(pOi)
+      // 🚀 5. Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+      let createSectionLeft = document.createElement('section')
+      main.appendChild(createSectionLeft)
+      createSectionLeft.className = 'left-content';
+      // 🚀 6. Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
+      let createSectionRight = document.createElement('section')
+      createSectionRight.className = 'right-content'
+      main.appendChild(createSectionRight)
+      // 🚀 7. Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5;
+      let leftContent = document.getElementsByClassName('left-content')[0]
+      let createImage = document.createElement('img')
+      createImage.className = 'small-image'
+      createImage.src = 'https://picsum.photos/200'
+      leftContent.appendChild(createImage)
+      // 🚀 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... 
+      // como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+      let rightContent = document.getElementsByClassName('right-content')[0]
+      let createUl = document.createElement('ul')
+      let ul = document.getElementsByTagName('ul')[0]
+      rightContent.appendChild(createUl)
+      let li = rightContent.firstChild
+      for(let index = 1; index<11; index+=1) {
+        console.log(index)
+        let createLi = document.createElement('li')
+        li.appendChild(createLi)
+        createLi.innerText = index
+      }
+      // 🚀 9. Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+      for (let index = 0;index<3; index+=1){
+      let createH3 = document.createElement('h3');
+      main.appendChild(createH3)
+      }
+      /*
+        
+        
+        
+        🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+      */
     </script>
   </body>
 </html>
