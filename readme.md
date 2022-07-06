@@ -39,8 +39,8 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 5.1 JavaScript - DOM e seletores
 - [x] 5.2 JavaScript - Trabalhando com elementos
 - [x] 5.3 JavaScript - Eventos
-- [] 5.4 JavaScript - Web Storage
-- [] 5.5 [Projeto - Arte com Pixels]
+- [x] 5.4 JavaScript - Web Storage
+- [x] 5.5 [Projeto - Arte com Pixels]
 - [] 5.6 [Projeto - Lista de tarefas]
 - [] 5.7 [(Bônus) Projeto - Meme Generator]
 - [] 5.7 [(Bônus) Projeto - Adivinhe a Cor]
