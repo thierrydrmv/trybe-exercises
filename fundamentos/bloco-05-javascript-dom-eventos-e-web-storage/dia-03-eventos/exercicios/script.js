@@ -10,7 +10,7 @@ function createDaysOfTheWeek() {
       weekDaysList.appendChild(dayListItem);
     };
   };
-  
+  // 1. Criar o calendário com seus dias
 function createDays() {
   let decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
   let holiday = [24,25,31]
@@ -19,8 +19,8 @@ function createDays() {
   for (let index=0;index<decemberDaysList.length;index+=1) {
     const day = decemberDaysList[index]
     const dayLi = document.createElement('li')
-    dayLi.classList.add('day')
-    dayLi.innerText = day
+    dayLi.className ='day';
+    dayLi.innerText = day;
     days.appendChild(dayLi)
     for (let i=0;i<decemberDaysList.length;i+=1) {
     if(decemberDaysList[index]==holiday[i])
@@ -30,7 +30,8 @@ function createDays() {
     }
   }
 }
-
+let feriasOn = false;
+// 2. criar botão feriado
 function criarBotaoFeriados() {
   let buttonContainer = document.querySelector('.buttons-container')
   const criarBotao =document.createElement('button')
@@ -38,12 +39,22 @@ function criarBotaoFeriados() {
   criarBotao.innerText = 'Feriados'
   buttonContainer.appendChild(criarBotao)
   criarBotao.addEventListener('click', function(){
+    // 3. Mudar a cor do feriado quando clicar no botão
     let feriado = document.querySelectorAll('.holiday')
-    for(let i=0;i<feriado.length;i+=1) {
-    feriado[i].style.backgroundColor = 'yellow'
-  }
+    for(let ferias of feriado){
+      if(feriasOn){
+        ferias.style.backgroundColor = ''
+      } else {
+        ferias.style.backgroundColor = 'yellow'
+      }
+    }
+    feriasOn = !feriasOn
+ 
   })
 }
+let ligado = false;
+
+// 4. criar o botão sexta feira
 function buttonFriday() {
   let buttonContainer = document.querySelector('.buttons-container')
   const criarBotao = document.createElement('button')
@@ -51,17 +62,33 @@ function buttonFriday() {
   criarBotao.innerText = 'Sexta-feira'
   buttonContainer.appendChild(criarBotao)
   criarBotao.addEventListener('click', function() {
-  let friday = document.querySelectorAll('.friday')
-  for(let i=0; i<friday.length;i+=1) {
-    friday[i].style.textShadow = '10px 10px 1px #3D8116'
+    // 5. Função que altera a sombra da classe friday quando clicado
+  let fridayz = document.querySelectorAll('.friday')
+  for(day of fridayz) {
+    if(ligado){
+    day.style.textShadow = ''
+    } else {
+    day.style.textShadow = '10px 10px 1px #3D8116'
+    }
   }
+  ligado = !ligado
 })
 }
+  // 6 criar zoom.
+function zoom() {
+  let dayz = document.getElementsByClassName('day')
+  for(let i=0;i<dayz.length;i+=1) {
+  let dayzi = dayz[i]
+    dayzi.addEventListener('click', function(){
+      console.log(oi)
+    dayzi.style.fontSize = '3rem';
+    })
+  }
+}
 
+zoom()
 buttonFriday()
-// descobrir a lógica reversa dos botões 
 criarBotaoFeriados()
-
 createDays()
 createDaysOfTheWeek();
   
