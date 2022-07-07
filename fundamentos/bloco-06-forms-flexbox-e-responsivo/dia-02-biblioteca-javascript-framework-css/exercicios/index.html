@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem</title>
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>TrybeTrip</h1>
+    </header>
+    <form action="" method="get">
+        <label for="input-text">Nome:</label>
+        <input type="text" name="nome"min="10" max="40" id="input-text">
+        <br>
+        <br>
+        <label for="input-email">Email:</label>
+        <input type="email" name="email" min="10" max="50"id="input-email">
+        <br>
+        <br>
+        <label for="place1"><input type="radio" id="place1" name="travel" value="city">Cidade</label>
+        <label for="place2"><input type="radio" id="place2" name="travel" value="field">Campo</label>
+        <label for="place3"><input type="radio" id="place3" name="travel" value="beach">Praia</label>
+        <label for="place4"><input type="radio" id="place4" name="travel" value="montain">Montanhas</label>
+        <br>
+        <br>
+        <textarea name="text-winner" id="text-winner" cols="50" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="date" name="date" id="date">
+        <br>
+        <br>
+        <label for="newOportunities"><input type="checkbox" name="newOportunities" id="newOportunities">Deseja de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <br>
+        <label for="imagensFree"><input type="checkbox" name="imagesFree" id="imagensFree" checked>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpa tela</button>
+        <script src="script.js"></script>
+    </form>
+</body>
+</html>
