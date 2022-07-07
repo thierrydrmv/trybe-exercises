@@ -39,9 +39,14 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 5.1 JavaScript - DOM e seletores
 - [x] 5.2 JavaScript - Trabalhando com elementos
 - [x] 5.3 JavaScript - Eventos
-- [] 5.4 JavaScript - Web Storage
-- [] 5.5 [Projeto - Arte com Pixels]
-- [] 5.6 [Projeto - Lista de tarefas]
-- [] 5.7 [(Bônus) Projeto - Meme Generator]
-- [] 5.7 [(Bônus) Projeto - Adivinhe a Cor]
-- [] 5.7 [(Bônus) Projeto - Carta Misteriosa]
+- [X] 5.4 JavaScript - Web Storage
+- [X] 5.5 [Projeto - Arte com Pixels]
+
+#### [Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/thierrydrmv/trybe-exercises/tree/main/fundamentos/bloco-06-forms-flexbox-e-responsivo/)
+- [x] 6.1 HTML & CSS - Forms
+- [] 6.2 Bibliotecas JavaScript e Frameworks CSS
+- [] 6.3 Introdução - CSS Flexbox
+- [] 6.3 CSS Flexbox - Parte 1
+- [] 6.4 CSS Flexbox - Parte 2
+- [] 6.5 CSS Responsivo - Mobile First
+- [] 6.6 Projeto - Trybewarts (Dupla)()
