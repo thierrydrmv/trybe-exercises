@@ -1,0 +1,59 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #323433;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+}
+
+#apresentacao{
+    display: block;
+    text-align: center;
+}
+img {
+    width: 50px;
+}
+
+#wiki {
+    color: white;
+}
+
+#logo {
+    background-color: #5FD38E;
+}
+
+#cards {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    height: 600px;
+    
+}
+
+#cardes {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    margin: 5px;
+}
+
+#apresentacao {
+    align-items: center;
+}
