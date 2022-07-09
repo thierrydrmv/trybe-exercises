@@ -44,7 +44,7 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 #### [Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/thierrydrmv/trybe-exercises/tree/main/fundamentos/bloco-06-forms-flexbox-e-responsivo/)
 - [x] 6.1 HTML & CSS - Forms
-- [] 6.2 Bibliotecas JavaScript e Frameworks CSS
+- [x] 6.2 Bibliotecas JavaScript e Frameworks CSS
 - [] 6.3 Introdução - CSS Flexbox
 - [] 6.3 CSS Flexbox - Parte 1
 - [] 6.4 CSS Flexbox - Parte 2

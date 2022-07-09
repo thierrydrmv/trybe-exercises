@@ -3,6 +3,7 @@ let imagem = document.getElementById('imagensFree')
 let nome = document.getElementById('nome1')
 let email = document.getElementById('exampleInputEmail1')
 let texteArea = document.getElementById('floatingTextarea2')
+let date = document.getElementById('myInputId')
 enviar.addEventListener('click', function(event){
     if(imagem.checked) {
         console.log('ue')
