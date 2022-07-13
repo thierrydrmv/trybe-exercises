@@ -73,6 +73,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        margin-left: 100px;
     }
     nav li {
         margin-left: 20px;
@@ -80,5 +81,20 @@ a {
     .container {
         display: flex;
         flex-direction: column;
+    }
+    div #aside {
+        width: 200px;
+        position: fixed;
+        margin-top: 100px;
+        border: 2px black solid;
+    }
+    #aside h2 {
+        text-align: center;
+    }
+    article, footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 220px;
     }
 }
