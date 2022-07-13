@@ -1,0 +1,100 @@
+html 
+{
+box-sizing: border-box;
+background-color: rgb(63, 136, 112);
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body {
+    display: flex;
+}
+
+nav ul{
+display: flex;
+justify-content: space-evenly;
+margin-left: -40px;
+}
+nav li {
+list-style-type: none;
+}
+.title {
+    font-size: xx-large;
+}
+
+.title, h2 {
+text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+a {
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1200px) {
+    body{
+        background-color: rgb(0, 73, 0);
+        color: white;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav li {
+        margin-left: 20px;
+    }
+
+    .title, h2 {
+        text-align: left;
+        }
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(30, 44, 8);
+        color: white;
+    }
+    .title, h2 {
+    text-align: left;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 100px;
+    }
+    nav li {
+        margin-left: 20px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    div #aside {
+        width: 200px;
+        position: fixed;
+        margin-top: 100px;
+        border: 2px black solid;
+    }
+    #aside h2 {
+        text-align: center;
+    }
+    article, footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 220px;
+    }
+}
