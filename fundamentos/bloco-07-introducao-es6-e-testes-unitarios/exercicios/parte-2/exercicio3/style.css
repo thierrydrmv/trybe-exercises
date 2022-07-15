@@ -1,0 +1,14 @@
+#box {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+#contador {
+    width: 200px;
+    height: 40px;
+    align-self: center;
+    background-color: #885CD1;
+    color: white;
+}
