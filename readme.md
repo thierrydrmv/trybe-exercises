@@ -54,5 +54,5 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 07: Introdução à JavaScript ES6 e Testes Unitários](https://github.com/thierrydrmv/trybe-exercises/tree/main/fundamentos/bloco-07-introducao-es6-e-testes-unitarios)
 - [x] 7.1 JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7.2 JavaScript ES6 - Objects
-- [] 7.3 Primeiros passos em Jest
-- [] 7.4 Projeto - JavaScript Testes Unitários
+- [x] 7.3 Primeiros passos em Jest
+- [x] 7.4 Projeto - JavaScript Testes Unitários
