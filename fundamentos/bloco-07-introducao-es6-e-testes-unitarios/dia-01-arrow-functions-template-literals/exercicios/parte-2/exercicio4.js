@@ -1,5 +1,5 @@
-const substuicao = () => {
-    const nome = 'Thierry';
+const substuicao = (aluno) => {
+    const nome = aluno;
     const frase = 'Tryber x aqui!'
     let newFrase = frase.split(' ');
     for (let i = 0; i < newFrase.length; i += 1){
@@ -10,9 +10,9 @@ const substuicao = () => {
     return phrase
 } 
 
-const newString = () => {
+const newString = (aluno) => {
     const skills = ['Javascript', 'HTML', 'CSS']
-    let phrase = substuicao();
+    let phrase = substuicao(aluno);
     return `${phrase} 
 Minhas três principais habilidades são:
 
@@ -20,4 +20,4 @@ Minhas três principais habilidades são:
 - ${skills[1]}
 - ${skills[2]}`
 }
-console.log(newString())
+console.log(newString('Thierry'))
