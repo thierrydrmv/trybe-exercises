@@ -7,8 +7,6 @@ let comparacao = (gabarito, aluno) => {
     for (var i = 0 ; i < gabarito.length; i += 1) {
         if (aluno[i] === gabarito[i]){
             nota +=1;
-        } else if (aluno[i] === 'N.A') {
-            nota +=0
         } else if (aluno[i] !== gabarito[i] && aluno[i] !== 'N.A') {
         nota -=0.5}
     }
