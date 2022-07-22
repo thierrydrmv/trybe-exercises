@@ -4,7 +4,7 @@ const musicas = [
     { id: '31031687', title: 'Chaconne, Partita No. 2 BWV 1004' },
   ]
 
-  function findMusic(valorId, musicas) {
+  const findMusic = (valorId, musicas) => {
     const musica = musicas.find(msc => msc.id === valorId);
     return musica.title;
   }
