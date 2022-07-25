@@ -92,4 +92,11 @@ const books = [
   })
   return livro;
 }
-  console.log(getNamedBook(books));
+  // console.log(getNamedBook(books));
+
+  const booksOrderedByReleaseYearDesc = (array) => {
+    array.sort((a, b) => b.releaseYear - a.releaseYear)
+    return array;
+  }
+
+  console.log(booksOrderedByReleaseYearDesc(books));
