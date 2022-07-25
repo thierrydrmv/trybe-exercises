@@ -99,4 +99,8 @@ const books = [
     return array;
   }
 
-  console.log(booksOrderedByReleaseYearDesc(books));
+  // console.log(booksOrderedByReleaseYearDesc(books));
+
+  const everyoneWasBornOnSecXX = (array) => array.every(element => element.author.birthYear > 1900)
+  
+  // console.log(everyoneWasBornOnSecXX(books));
