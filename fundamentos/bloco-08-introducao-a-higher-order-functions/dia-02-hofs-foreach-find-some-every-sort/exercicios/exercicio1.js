@@ -104,3 +104,7 @@ const books = [
   const everyoneWasBornOnSecXX = (array) => array.every(element => element.author.birthYear > 1900)
   
   // console.log(everyoneWasBornOnSecXX(books));
+
+  const someBookWasReleaseOnThe80s = (array) => array.some((element) => element.releaseYear > 1980 && element.releaseYear < 1990);
+
+  // console.log(someBookWasReleaseOnThe80s(books));
