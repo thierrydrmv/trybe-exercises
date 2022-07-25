@@ -106,5 +106,9 @@ const books = [
   // console.log(everyoneWasBornOnSecXX(books));
 
   const someBookWasReleaseOnThe80s = (array) => array.some((element) => element.releaseYear > 1980 && element.releaseYear < 1990);
-
+  
   // console.log(someBookWasReleaseOnThe80s(books));
+
+  const authorUnique = (array) => array.filter((element) => console.log(element.author.birthYear));
+
+// authorUnique(books);
