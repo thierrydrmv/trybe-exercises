@@ -67,7 +67,7 @@ const books = [
 }
   
 
-  console.log(authorBornIn1947(books, 1947))
+  // console.log(authorBornIn1947(books, 1947))
 
   const smallerName = (array) => {
     let nameBook;
@@ -81,6 +81,15 @@ const books = [
     return nameBook;
   }
 
-  console.log(smallerName(books));
+  // console.log(smallerName(books));
 
-  // console.log(smallerName());
+  const getNamedBook = (array) => {
+    let livro;
+    array.find((elemento) => {
+    if (elemento.name.length === 26) {
+      livro = elemento.name;
+    };
+  })
+  return livro;
+}
+  console.log(getNamedBook(books));
