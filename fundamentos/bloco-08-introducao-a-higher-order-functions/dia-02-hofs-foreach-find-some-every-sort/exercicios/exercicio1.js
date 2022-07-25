@@ -67,7 +67,7 @@ const books = [
 }
   
 
-  console.log(authorBornIn1947(books, 1947))
+  // console.log(authorBornIn1947(books, 1947))
 
   const smallerName = (array) => {
     let nameBook;
@@ -81,6 +81,34 @@ const books = [
     return nameBook;
   }
 
-  console.log(smallerName(books));
+  // console.log(smallerName(books));
 
-  // console.log(smallerName());
+  const getNamedBook = (array) => {
+    let livro;
+    array.find((elemento) => {
+    if (elemento.name.length === 26) {
+      livro = elemento.name;
+    };
+  })
+  return livro;
+}
+  // console.log(getNamedBook(books));
+
+  const booksOrderedByReleaseYearDesc = (array) => {
+    array.sort((a, b) => b.releaseYear - a.releaseYear)
+    return array;
+  }
+
+  // console.log(booksOrderedByReleaseYearDesc(books));
+
+  const everyoneWasBornOnSecXX = (array) => array.every(element => element.author.birthYear > 1900)
+  
+  // console.log(everyoneWasBornOnSecXX(books));
+
+  const someBookWasReleaseOnThe80s = (array) => array.some((element) => element.releaseYear > 1980 && element.releaseYear < 1990);
+  
+  // console.log(someBookWasReleaseOnThe80s(books));
+
+  const authorUnique = (array) => array.filter((element) => console.log(element.author.birthYear));
+
+// authorUnique(books);
