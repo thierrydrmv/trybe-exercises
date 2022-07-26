@@ -61,7 +61,7 @@ const books = [
     },
   ];
   
-  const formatedBookNames = (array) => array.map(book => `${book.name} - ${book.genre} - ${book.author.name}`)
+  const formatedBookNames = (array) => array.map(book => `${book.name} - ${book.genre} - ${book.author.name}`);
 
 //   console.log(formatedBookNames(books))
 
@@ -70,6 +70,11 @@ const books = [
         age: (item.releaseYear - item.author.birthYear),
         author: item.author.name,
     }))
-    return newArray.sort((a, b) => a.age - b.age)
-  }
-  console.log(nameAndAge(books));
+    return newArray.sort((a, b) => a.age - b.age);
+  };
+//   console.log(nameAndAge(books));
+
+const fantasyOrScienceFiction = (array) => array.filter(book => book.genre === 'Fantasia' || book.genre === 'Ficção Científica');
+
+// console.log(fantasyOrScienceFiction(books))
+
