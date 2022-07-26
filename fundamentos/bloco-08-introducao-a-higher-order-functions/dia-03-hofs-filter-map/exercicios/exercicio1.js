@@ -84,4 +84,12 @@ const oldBooksOrdered = (array) => {
     return moreThan60;
 }
 
-console.log(oldBooksOrdered(books));
+// console.log(oldBooksOrdered(books));
+
+const fantasyOrScienceFictionAuthors = (array) => {
+    let goodBooks = array.filter(book => book.genre === 'Ficção Científica' || book.genre === 'Fantasia')
+    let goodBooksAuthors = goodBooks.map(array => array.author.name).sort()
+    return goodBooksAuthors;
+}
+
+// console.log(fantasyOrScienceFictionAuthors(books));
