@@ -120,3 +120,5 @@ const books = [
   //  birth.every(({author: {birthYear}}, index) => !birth.some(({author: {birthYear : yearSome}}, indexSome) => yearSome === birthYear && index !== indexSome));;
 }
   console.log(authorUnique(books));
+
+  //1
