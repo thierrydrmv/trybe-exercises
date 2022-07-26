@@ -101,3 +101,10 @@ const oldBooks = (array) => {
 }
 
 // console.log(oldBooks(books));
+
+const authorWith3DotsOnName = (array) => {
+ return array.filter(book => book.author.name.split('.').length === 4).map(array => array.name);
+}
+
+authorWith3DotsOnName(books);
+console.log(authorWith3DotsOnName(books));
