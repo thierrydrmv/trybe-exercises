@@ -78,3 +78,10 @@ const fantasyOrScienceFiction = (array) => array.filter(book => book.genre === '
 
 // console.log(fantasyOrScienceFiction(books))
 
+const oldBooksOrdered = (array) => {
+    const moreThan60 = array.filter(book => 2022 - book.releaseYear > 60);
+    moreThan60.sort((bookA, bookB) => bookA.releaseYear - bookB.releaseYear);
+    return moreThan60;
+}
+
+console.log(oldBooksOrdered(books));
