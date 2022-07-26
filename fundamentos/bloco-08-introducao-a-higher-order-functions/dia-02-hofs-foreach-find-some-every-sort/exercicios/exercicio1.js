@@ -109,6 +109,14 @@ const books = [
   
   // console.log(someBookWasReleaseOnThe80s(books));
 
-  const authorUnique = (array) => array.filter((element) => console.log(element.author.birthYear));
 
-// authorUnique(books);
+  // 7 - Faça uma função que retorne true, caso nenhum author tenha nascido no mesmo ano, e false, caso contrário.
+
+  const authorUnique = (array) => {
+  let birth = array.map((element) => element.author.birthYear)
+  return birth.every((birthYear, index) => !birth.some((yearSome, indexSome) => yearSome === birthYear && index !== indexSome));
+    // let birth = array.map((element) => element.author.birthYear)
+    // return birth.every((year, index) => !birth.some((yearSome, indexSome) => yearSome === year && index !== indexSome));
+  //  birth.every(({author: {birthYear}}, index) => !birth.some(({author: {birthYear : yearSome}}, indexSome) => yearSome === birthYear && index !== indexSome));;
+}
+  console.log(authorUnique(books));
