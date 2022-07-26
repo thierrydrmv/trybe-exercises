@@ -93,3 +93,11 @@ const fantasyOrScienceFictionAuthors = (array) => {
 }
 
 // console.log(fantasyOrScienceFictionAuthors(books));
+
+const oldBooks = (array) => {
+    const ordem = array.filter(element => 2022 - element.releaseYear > 60);
+    const ordemTitle = ordem.map(book => book.name);
+    return ordemTitle;
+}
+
+// console.log(oldBooks(books));
