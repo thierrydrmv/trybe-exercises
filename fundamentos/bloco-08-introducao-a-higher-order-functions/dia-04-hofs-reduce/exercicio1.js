@@ -84,8 +84,8 @@ const reduceNames = (array) => array.reduce((unido, atual) => unido.concat(`${at
 // console.log(reduceNames(books));
 
 const averageAge = (array) => {
-    const idade = array.map((age) => (age.releaseYear - age.author.birthYear))
-    return idade.reduce((acc, curr) => acc + curr)/array.length;
+    // const idade = array.map((age) => (age.releaseYear - age.author.birthYear))
+    return array.reduce((acc, age) => acc + (age.releaseYear - age.author.birthYear), 0)/array.length;
 }
 // console.log(averageAge(books));
 
@@ -110,3 +110,23 @@ const containsA = (array) => {
 }
 
 // console.log(containsA(names));
+
+const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
+const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
+
+const studentAverage = (arrayNames, arrayGrades) => {
+  const novoObjeto = arrayGrades.map((element, index) => ({
+    students: arrayNames[index],
+    average : arrayGrades[index].reduce((acc ,curr) => acc + curr , 0)/ element.length
+  }))
+  return novoObjeto
+}
+console.log(studentAverage(students, grades));
+
+
+
+// const expected = [
+//   { name: 'Pedro Henrique', average: 7.8 },
+//   { name: 'Miguel', average: 9.2 },
+//   { name: 'Maria Clara', average: 8.8 },
+// ];
