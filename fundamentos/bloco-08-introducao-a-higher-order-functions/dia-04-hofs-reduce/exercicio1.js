@@ -96,4 +96,17 @@ const expectResult = (array) => {
         }
         return livroCurr })
 }
-console.log(expectResult(books));
+// console.log(expectResult(books));
+
+const names = [
+    'Aanemarie', 'Adervandes', 'Akifusa',
+    'Abegildo', 'Adicellia', 'Aladonata',
+    'Abeladerco', 'Adieidy', 'Alarucha',
+  ];
+
+const containsA = (array) => {
+    const lower = array.map(element => element.toLowerCase().split('a').length-1)
+    return lower.reduce((total, atual) => total + atual)
+}
+
+// console.log(containsA(names));
