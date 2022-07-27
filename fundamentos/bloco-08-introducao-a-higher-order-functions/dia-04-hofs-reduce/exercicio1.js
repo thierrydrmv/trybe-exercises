@@ -81,4 +81,10 @@ const reduceNames = (array) => array.reduce((unido, atual) => unido.concat(`${at
 //     return names.trim();
 //   }
 
-console.log(reduceNames(books));
+// console.log(reduceNames(books));
+
+const averageAge = (array) => {
+    const idade = array.map((age) => (age.releaseYear - age.author.birthYear))
+    return idade.reduce((acc, curr, index, array) => acc + curr)/array.length;
+}
+console.log(averageAge(books));
