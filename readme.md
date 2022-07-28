@@ -62,5 +62,5 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 8.2 JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 8.3 JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.4 JavaScript ES6 - Higher Order Functions - reduce
-- [] 8.5 JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [x] 8.5 JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [] [8.6 Projeto - Zoo functions]
