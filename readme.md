@@ -63,3 +63,11 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 8.3 JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.4 JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.5 JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+
+## Desenvolvimento Front-end ⏳
+
+#### [Bloco 09: JavaScript e Testes Assíncronos](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-09-javascript-e-testes-assincronos/)
+- [x] 9.1 JavaScript Assíncrono e Callbacks
+- [] 9.2 JavaScript Assíncrono - Fetch API e async/await
+- [] 9.3 Jest - Testes Assíncronos
+- [] 9.4 Projeto - Carrinho de Compras
