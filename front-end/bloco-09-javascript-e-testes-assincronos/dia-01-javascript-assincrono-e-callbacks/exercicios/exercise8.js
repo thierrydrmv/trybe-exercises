@@ -28,14 +28,21 @@ function getPokemonDetails(filter, callback) {
     const messageFromProfOak = `Olá, seu pokémon é o ${name}, o tipo dele é ${type} e a habilidade principal dele é ${ability}`;
 
     callback(messageFromProfOak);
-  }, 2000);
+  }, 1000);
 }
-//Complete a chamada da função getPokemonDetails de modo que ela imprima no 
-//console os detalhes do pokémon que você escolheu.
 
+const handlePokemon = (error, message) => {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log(message);
+  }
+}
 
-getPokemonDetails(element => element.name === 'Charman1der', console.log);
+const filtro = (param) => element => element.name === param
+
+getPokemonDetails(filtro('Squirtle'), handlePokemon);
 
 module.exports = {
-  getPokemonDetails,
+  getPokemonDetails, handlePokemon
 };
