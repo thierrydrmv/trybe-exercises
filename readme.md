@@ -69,5 +69,4 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 09: JavaScript e Testes Assíncronos](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-09-javascript-e-testes-assincronos/)
 - [x] 9.1 JavaScript Assíncrono e Callbacks
 - [x] 9.2 JavaScript Assíncrono - Fetch API e async/await
-- [] 9.3 Jest - Testes Assíncronos
-- [] 9.4 Projeto - Carrinho de Compras
+- [x] 9.3 Jest - Testes Assíncronos
