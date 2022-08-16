@@ -71,8 +71,6 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 9.2 JavaScript Assíncrono - Fetch API e async/await
 - [x] 9.3 Jest - Testes Assíncronos
 
-#### [Bloco 10: Introdução à React](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-09-javascript-e-testes-assincronos/)
-- [x] 10.1 Introdução - Front-end
-- [x] 10.1 Introdução - React
+#### [Bloco 10: Introdução à React](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-10-introducao-a-react/)
 - [x] 10.1 'Hello, world!' no React!
 - [x] 10.2 Componentes React
