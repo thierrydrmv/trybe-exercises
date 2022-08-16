@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.title {
+  align-self: center;
+  color: darkcyan;
+}
+
+.apresentation {
+  font-size: x-large;
+  align-self: center;
+  color: blue;
+}
+
+.skills {
+  align-self: center;
+  font-size: x-large;
+  list-style: none;
+  color: blueviolet;
+}
