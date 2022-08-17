@@ -73,4 +73,4 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 #### [Bloco 10: Introdução à React](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-10-introducao-a-react/)
 - [x] 10.1 'Hello, world!' no React!
-- [] 10.2 Componentes React
+- [ ] 10.2 Componentes React
