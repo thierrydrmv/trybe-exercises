@@ -77,4 +77,4 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 #### [Bloco 11: Componentes com Estado, Eventos e Formulários com React](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-11-componentes-com-estado-eventos-e-forms/)
 - [x] Componentes com Estado e Eventos
-- [ ] Formulários no React
+- [x] Formulários no React
