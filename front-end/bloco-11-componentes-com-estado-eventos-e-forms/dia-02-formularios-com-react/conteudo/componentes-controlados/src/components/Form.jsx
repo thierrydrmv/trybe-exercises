@@ -6,47 +6,75 @@ export default class Form extends Component {
     idade: 0,
     porque: '',
     drinkFavorito: '',
+    water: false,
   }
 
-  handleInputChange = (event) => {
-    this.setState({ nome: event.target.value })
+  handleChange = ({target}) => {
+    const { name } = target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    this.setState({ [name]: value, });
   }
 
   render() {
-    const { nome } = this.state;
+    const { nome, idade, porque, drinkFavorito, water } = this.state;
     return (
       <form>
-        <label>
-            O que você mais bebe?
-        </label>
-        <select name='drinkFavorito'>
-          <option value="cerveja">Cerveja</option>
-          <option value="refrigerante">Refrigerante</option>
-          <option value="energetico">Energético</option>
-        </select>
-        <br></br>
-        <br></br>
-        <label>
-          Digite seu nome:
-        <input 
-        name='nome'
-        value={nome}
-        onChange={this.handleInputChange}
-        type='text'
-        />
-        </label>
-        <br></br>
-        <br></br>
-        <label>
-          Qual sua idade:
-        <input name='idade' type='number'/>
-        </label>
-        <br></br>
-        <br></br>
-        <label>
-          Por qual motivo?
-        <textarea name='porque'/>
-        </label>
+        <fieldset>
+              O que você mais bebe?
+          <select
+          name='drinkFavorito'
+          value={drinkFavorito}
+          onChange={this.handleChange}>
+            <option value="cerveja">Cerveja</option>
+            <option value="refrigerante">Refrigerante</option>
+            <option value="energetico">Energético</option>
+          </select>
+          <br></br>
+          <br></br>
+            Digite seu nome:
+          <input 
+          name='nome'
+          value={nome}
+          onChange={this.handleChange}
+          type='text'
+          />
+          <br></br>
+          <br></br>
+            Qual sua idade:
+          <input
+          name='idade'
+          value={idade}
+          onChange={this.handleChange}
+          type='number'
+          />
+          <br></br>
+          <br></br>
+            Por qual motivo?
+          <textarea 
+          name='porque'
+          value={porque}
+          type='textarea'
+          onChange={this.handleChange}
+          />
+          <br></br>
+          <br></br>
+        </fieldset>
+        <fieldset>
+            Você toma mais de dois litros de água por dia?
+            <input
+            name='water'
+            value={water}
+            type='checkbox'
+            onChange={this.handleChange}
+            />
+          <br></br>
+          <br></br>
+            Envie uma foto sua
+            <br></br>
+          <input
+          type="file"
+          />
+          </fieldset>
       </form>
     )
   }
