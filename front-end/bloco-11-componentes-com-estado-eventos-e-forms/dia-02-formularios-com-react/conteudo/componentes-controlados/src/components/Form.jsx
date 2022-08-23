@@ -1,41 +1,23 @@
 import React, { Component } from 'react'
+import DrinkFavorito from './DrinkFavorito';
 
 export default class Form extends Component {
-  state = {
-    nome: '',
-    idade: 0,
-    porque: '',
-    drinkFavorito: '',
-    water: false,
-  }
-
-  handleChange = ({target}) => {
-    const { name } = target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    this.setState({ [name]: value, });
-  }
-
+  
   render() {
-    const { nome, idade, porque, drinkFavorito, water } = this.state;
+    const { handleChange, objectState } = this.props;
+    const { nome, idade, drinkFavorito, porque, water } = objectState;
     return (
       <form>
         <fieldset>
               O que você mais bebe?
-          <select
-          name='drinkFavorito'
-          value={drinkFavorito}
-          onChange={this.handleChange}>
-            <option value="cerveja">Cerveja</option>
-            <option value="refrigerante">Refrigerante</option>
-            <option value="energetico">Energético</option>
-          </select>
+          <DrinkFavorito value={drinkFavorito} handleChange={handleChange} />
           <br></br>
           <br></br>
             Digite seu nome:
           <input 
           name='nome'
           value={nome}
-          onChange={this.handleChange}
+          onChange={handleChange}
           type='text'
           />
           <br></br>
@@ -44,7 +26,7 @@ export default class Form extends Component {
           <input
           name='idade'
           value={idade}
-          onChange={this.handleChange}
+          onChange={handleChange}
           type='number'
           />
           <br></br>
@@ -53,8 +35,8 @@ export default class Form extends Component {
           <textarea 
           name='porque'
           value={porque}
+          onChange={handleChange}
           type='textarea'
-          onChange={this.handleChange}
           />
           <br></br>
           <br></br>
@@ -64,8 +46,8 @@ export default class Form extends Component {
             <input
             name='water'
             value={water}
+            onChange={handleChange}
             type='checkbox'
-            onChange={this.handleChange}
             />
           <br></br>
           <br></br>
