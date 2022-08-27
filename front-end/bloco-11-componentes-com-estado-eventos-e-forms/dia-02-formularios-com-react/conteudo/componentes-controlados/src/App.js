@@ -13,7 +13,6 @@ class App extends React.Component {
 
   handleChange = ({target}) => {
     const { name } = target;
-    console.log(target);
     const value = target.type === 'checkbox' ? target.checked : target.value;
     this.setState({ [name]: value, });
   }

@@ -15,7 +15,7 @@ export default class Form extends Component {
           <br></br>
             Digite seu nome:
           <Input 
-          value={nome}
+          nome={nome}
           handleChange={handleChange}
           />
           <br></br>
@@ -27,6 +27,7 @@ export default class Form extends Component {
           onChange={handleChange}
           type='number'
           />
+          { idade < 18 ? 'Não tem idade para beber' : 'Beba avontade' }
           <br></br>
           <br></br>
             Por qual motivo?
