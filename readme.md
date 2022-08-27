@@ -78,3 +78,7 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 11: Componentes com Estado, Eventos e Formulários com React](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-11-componentes-com-estado-eventos-e-forms/)
 - [x] Componentes com Estado e Eventos
 - [x] Formulários no React
+
+#### [Bloco 12: Ciclo de Vida de Componentes e React Router](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-12-ciclo-de-vida-de-componentes-e-react-router/)
+- [x] Ciclo de Vida de Componentes
+- [ ] React Router
