@@ -9,12 +9,30 @@ class App extends React.Component {
     idade: 0,
     porque: '',
     water: false,
+    erros: true,
   }
 
   handleChange = ({target}) => {
     const { name } = target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
-    this.setState({ [name]: value, });
+    this.setState({ [name]: value, }, () => {
+      this.handleErrors();
+    });
+  }
+
+  handleErrors = () => {
+    const { nome, idade } = this.state;
+
+    const errorCases = [
+      nome.length > 5,
+      idade >= 18,
+    ]
+
+    const rules = errorCases.every((err) => err === false)
+
+    this.setState({
+      erros: !rules,
+    })
   }
 
   render () {
