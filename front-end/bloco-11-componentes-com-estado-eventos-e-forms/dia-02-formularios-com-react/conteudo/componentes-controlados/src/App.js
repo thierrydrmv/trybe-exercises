@@ -13,6 +13,7 @@ class App extends React.Component {
 
   handleChange = ({target}) => {
     const { name } = target;
+    console.log(target);
     const value = target.type === 'checkbox' ? target.checked : target.value;
     this.setState({ [name]: value, });
   }
@@ -21,7 +22,7 @@ class App extends React.Component {
   return (
     <div>
       <h1>Estudo componentes de estado</h1>
-      <Form objectState={ this.state } handleChange={this.handleChange} />
+      <Form { ...this.state } handleChange={this.handleChange} handleName={this.handleName}/>
     </div>
   );
   }

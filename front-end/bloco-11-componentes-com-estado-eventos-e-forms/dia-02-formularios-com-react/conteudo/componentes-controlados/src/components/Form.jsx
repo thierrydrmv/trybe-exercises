@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import DrinkFavorito from './DrinkFavorito';
+import Input from './Input';
 
 export default class Form extends Component {
   
   render() {
-    const { handleChange, objectState } = this.props;
-    const { nome, idade, drinkFavorito, porque, water } = objectState;
+    const { handleChange, nome, idade, drinkFavorito, porque, water } = this.props;
     return (
       <form>
         <fieldset>
@@ -14,11 +14,9 @@ export default class Form extends Component {
           <br></br>
           <br></br>
             Digite seu nome:
-          <input 
-          name='nome'
+          <Input 
           value={nome}
-          onChange={handleChange}
-          type='text'
+          handleChange={handleChange}
           />
           <br></br>
           <br></br>
