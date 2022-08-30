@@ -9,15 +9,11 @@ state = {
 }
 
 fetchData = async () => {
-  this.setState(
-    {loading: true}, async () => {
-      const request = await fetch('https://api.randomuser.me/ ')
-      const data = await request.json();
-      this.setState({
-        data: data.results,
-        loading: false })
-    }
-  )
+  const request = await fetch('https://api.randomuser.me/ ')
+  const data = await request.json();
+  this.setState({
+    data: data.results,
+    loading: false })
 }
 
 componentDidMount = () => {
