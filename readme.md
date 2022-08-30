@@ -81,4 +81,4 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 #### [Bloco 12: Ciclo de Vida de Componentes e React Router](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-12-ciclo-de-vida-de-componentes-e-react-router/)
 - [x] Ciclo de Vida de Componentes
-- [ ] React Router
+- [x] React Router
