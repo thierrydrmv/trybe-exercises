@@ -82,3 +82,11 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 12: Ciclo de Vida de Componentes e React Router](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-12-ciclo-de-vida-de-componentes-e-react-router/)
 - [x] Ciclo de Vida de Componentes
 - [x] React Router
+
+#### [Bloco 13: Metodologias Ágeis]
+- [x] Metodologias Ágeis
+
+#### [Bloco 14: Testes Automatizados com React Testing Library](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-14-testes-automatizados-com-RTL)
+- [x] RTL primeiros passos
+- [ ] RTL Mocks e Inputs
+- [ ] RTL Testando React Router
