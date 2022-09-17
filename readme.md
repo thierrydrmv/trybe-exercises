@@ -88,5 +88,5 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 #### [Bloco 14: Testes Automatizados com React Testing Library](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-14-testes-automatizados-com-RTL)
 - [x] RTL primeiros passos
-- [ ] RTL Mocks e Inputs
-- [ ] RTL Testando React Router
+- [x] RTL Mocks e Inputs
+- [x] RTL Testando React Router
