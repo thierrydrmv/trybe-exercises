@@ -28,6 +28,6 @@ Os assuntos são: O que você fez ontem, o que fará hoje e se houve algum impre
 
 # KANBAN
 
-É um fluxo de trabalho de forma visual no formato de linhas e colunas. Mantendo todos da equipe em sintonia sobre os estágios do projeto.
+É um fluxo de trabalho de forma visual no formato de linhas e colunas. Mantendo todos da equipe em sintonia sobre as etapas do projeto.
 
 <img src="img/kanban.png" alt="Kanban"/>
