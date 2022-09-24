@@ -90,3 +90,11 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] RTL primeiros passos
 - [x] RTL Mocks e Inputs
 - [x] RTL Testando React Router
+
+#### [Bloco 15: Gerenciamento de estado com Redux](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-15-gerenciamento-de-estados-com-redux)
+- [x] Introdução ao Redux - O estado global da aplicação.
+- [x] Usando o Redux no React
+- [x] Usando o Redux no React - Prática
+- [x] Usando o Redux no React - Actions Assíncronas
+- [x] Testes em React-Redux
+
