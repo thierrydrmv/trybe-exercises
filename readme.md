@@ -94,6 +94,6 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 15: Gerenciamento de estado com Redux](https://github.com/thierrydrmv/trybe-exercises/tree/main/front-end/bloco-15-gerenciamento-de-estados-com-redux)
 - [x] Introdução ao Redux - O estado global da aplicação.
 - [x] Usando o Redux no React
-- [ ] Usando o Redux no React - Prática
+- [x] Usando o Redux no React - Prática
 - [ ] Usando o Redux no React - Actions Assíncronas
 - [ ] Testes em React-Redux
