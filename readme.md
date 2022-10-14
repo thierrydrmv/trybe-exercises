@@ -95,5 +95,5 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] Introdução ao Redux - O estado global da aplicação.
 - [x] Usando o Redux no React
 - [x] Usando o Redux no React - Prática
-- [ ] Usando o Redux no React - Actions Assíncronas
+- [x] Usando o Redux no React - Actions Assíncronas
 - [ ] Testes em React-Redux
