@@ -1,0 +1,4 @@
+const LOADING_DATA = 'LOADING_DATA';
+const API_DATA = 'API_DATA'
+
+export { LOADING_DATA, API_DATA };
