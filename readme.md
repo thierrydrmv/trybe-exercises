@@ -96,4 +96,4 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] Usando o Redux no React
 - [x] Usando o Redux no React - Prática
 - [x] Usando o Redux no React - Actions Assíncronas
-- [ ] Testes em React-Redux
+- [x] Testes em React-Redux
