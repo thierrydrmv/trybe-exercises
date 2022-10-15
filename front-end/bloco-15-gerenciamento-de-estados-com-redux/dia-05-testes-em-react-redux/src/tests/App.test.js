@@ -34,6 +34,15 @@ describe('testing clicks', () => {
     await userEvent.click(buttonDiminuir)
     await userEvent.click(buttonDiminuir)
     expect(value.innerHTML).toBe('-1')
-
   })
+
+  it('a click in the plus button should change the value to 11', async () => {
+    renderWithRedux(<App />, { initialState: { clickReducer: { counter: 10 } } });
+    const buttonAdicionar = screen.getByTestId('plus');
+
+    await userEvent.click(buttonAdicionar)
+    const value = screen.getByTestId('counter');
+
+    expect(value.innerHTML).toBe('11');
+  });
 });
