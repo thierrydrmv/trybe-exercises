@@ -1,13 +1,14 @@
 import React from 'react';
 import '../styles/box.css';
-import MyContext from '../MyContext';
+import MyContext from '../context/myContext';
 
 class ColorBox extends React.Component {
   render() {
+    const { handleColor, payload } = this.context;
     return(
-      <MyContext.Consumer>
-        {
-        ({handleColor, payload}) => (
+      // <MyContext.Consumer>
+      //   {
+      //   ({handleColor, payload}) => (
         <button
           type="button"
           className="box"
@@ -17,9 +18,12 @@ class ColorBox extends React.Component {
           Click me to change my color!
         </button>
         )
-        }
-      </MyContext.Consumer>
-    )
+        // }
+    //   </MyContext.Consumer>
+    // )
   }
 }
+
+ColorBox.contextType = MyContext;
+
 export default ColorBox;
