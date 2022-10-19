@@ -65,10 +65,9 @@ function Form() {
           Módulo Ciência da Computação
         </label>
       <button
-        type='submit'
+        type='button'
         onClick={
-        (event) => {
-          event.preventDefault();
+        () => {
           const personInfo = {
             name,
             age,
