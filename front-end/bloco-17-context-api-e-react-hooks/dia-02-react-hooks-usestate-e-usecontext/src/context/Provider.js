@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import MyContext from './MyContext';
 
-
 function Provider({children}) {
   const [personList, setPerson] = useState([]);
 
@@ -11,10 +10,8 @@ function Provider({children}) {
 
   const contextValue = {
     personList,
-    setPerson,
     addPerson,
   }
-
   return (
     <MyContext.Provider value={ contextValue }>
       {children}
