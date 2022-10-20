@@ -9,16 +9,27 @@ function Form() {
 
   const { addPerson } = useContext(context);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const personInfo = {
+      name,
+      age,
+      city,
+      module,
+    };
+    addPerson(personInfo);
+  }
+
   return (
     <div>
-      <form>
+      <form onSubmit={ handleSubmit }>
         <label htmlFor='name'>Nome Completo
           <input type='text' value={ name } id='name' onChange={({target}) => setName(target.value)} />
         </label>
-        <label>Idade
+        <label htmlFor='age'>Idade
           <input type='number' value={ age } id='age' onChange={({target}) => setAge(target.value)}  />
         </label>
-        <label>Cidade
+        <label htmlFor='city'>Cidade
           <input type='text' value={ city } id='city' onChange={({target}) => setCity(target.value)} />
         </label>
         <label htmlFor='fundamentals'>
@@ -64,20 +75,7 @@ function Form() {
           />
           Módulo Ciência da Computação
         </label>
-      <button
-        type='button'
-        onClick={
-        () => {
-          const personInfo = {
-            name,
-            age,
-            city,
-            module,
-          };
-          addPerson(personInfo);
-        } }
-      >
-        Submit</button>
+      <button type='submit'>Submit</button>
       </form>
     </div>
   )

@@ -6,8 +6,8 @@ function Students() {
   return (
     <ul>
       {
-        personList.map(({name, age, city , module }) => (
-          <li>
+        personList.map(({name, age, city , module }, i) => (
+          <li key={i}>
             <p>{name}</p>
             <p>{age}</p>
             <p>{city}</p>
