@@ -25,12 +25,12 @@ function EmailList() {
   }
 
   const setAllRead = () => {
-    const newState = state.map((email) => email && {...email, status: 1});
+    const newState = state.map((email) => ({...email, status: 1}));
     setState(newState);
   }
 
   const setAllNotRead = () => {
-    const newState = state.map((email) => email && {...email, status: 0});
+    const newState = state.map((email) => ({...email, status: 0}));
     setState(newState);
   }
   return (
