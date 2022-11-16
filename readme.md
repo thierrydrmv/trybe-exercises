@@ -111,5 +111,5 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 18: Docker Utilizando Containers ](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-18-docker-utilizando-containers)
 - [x] 18.1 - Utilizando Containers - Docker
 - [x] 18.2 - Manipulando Imagens no Docker
-- [ ] 18.3 - Orquestrando Containers com Docker Compose
-- [ ] 18.4 - Projeto - Docker Todo-List
+- [x] 18.3 - Orquestrando Containers com Docker Compose
+- [x] 18.4 - Projeto - Docker Todo-List
