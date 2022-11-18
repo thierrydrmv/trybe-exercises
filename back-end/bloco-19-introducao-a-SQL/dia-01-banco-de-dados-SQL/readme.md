@@ -30,8 +30,6 @@ nota - permite nulos, tipo int;
 
 N:1
 
-Exercício 6: Qual tipo de relacionamento a tabela country faz com a tabela city?
+## Exercício 6: Qual tipo de relacionamento a tabela country faz com a tabela city?
 
 1:N
-
-
