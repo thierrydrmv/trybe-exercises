@@ -113,3 +113,10 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 18.2 - Manipulando Imagens no Docker
 - [x] 18.3 - Orquestrando Containers com Docker Compose
 - [x] 18.4 - Projeto - Docker Todo-List
+
+#### [Bloco 19: Introdução à SQL ](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-19-introducao-a-SQL)
+- [x] 19.1 - Banco de dados SQL
+- [x] 19.2 - Encontrando dados em um banco de dados
+- [x] 19.3 - Filtrando dados de forma específica
+- [x] 19.4 - Manipulando tabelas
+- [x] 19.5 - Projeto - All For One
