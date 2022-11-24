@@ -2072,7 +2072,7 @@ SELECT MAX(salary) - MIN(salary) from hr.employees;
 SELECT job_id, AVG(salary)
 FROM hr.employees
 GROUP BY job_id
-ORDER BY AVG(salary);
+ORDER BY AVG(salary) DESC;
 
 -- 4. Escreva uma query que exiba a quantidade de dinheiro necessária para realizar o pagamento de todas as pessoas funcionárias.
 
@@ -2081,9 +2081,9 @@ SELECT SUM(salary) FROM hr.employees;
 -- 5. 🚀 Escreva uma query que exiba quatro informações: o maior salário, o menor salário, a soma de todos os salários e a média dos salários. Todos os valores devem ser formatados para ter apenas duas casas decimais.
 
 SELECT
-    MAX(salary),
-    MIN(salary),
-    SUM(salary),
+    ROUND(MAX(salary), 2),
+    ROUND(MIN(salary), 2),
+    ROUND(SUM(salary), 2),
     ROUND(AVG(salary), 2)
 FROM hr.employees;
 
@@ -2102,16 +2102,12 @@ SELECT job_id, SUM(salary) FROM hr.employees GROUP BY job_id;
 
 -- 8. Utilizando a query anterior, faça as alterações para que seja exibido somente a quantidade de dinheiro necessária para cobrir a folha de pagamento das pessoas programadoras (it_prog).
 
-SELECT * FROM hr.employees;
-
 SELECT job_id, SUM(salary)
 FROM hr.employees
 GROUP BY job_id
 HAVING job_id = 'IT_PROG';
 
 -- 9. Escreva uma query que exiba em ordem decrescente a média salarial de todos os cargos, exceto das pessoas programadoras (it_prog).
-
-SELECT * FROM hr.employees;
 
 SELECT job_id, AVG(salary)
 FROM hr.employees
@@ -2133,7 +2129,14 @@ HAVING COUNT(*) > 10;
 
 SELECT * FROM hr.employees;
 
-SELECT REPLACE(phone_number, '515', '777') FROM hr.employees;
+-- Liberando o update
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE hr.employees
+SET phone_number =
+REPLACE
+(phone_number, '515', '777');
 
 -- 12. Escreva uma query que só exiba as informações dos funcionários cujo o primeiro nome tenha oito ou mais caracteres.
 
@@ -2157,7 +2160,7 @@ SELECT employee_id, first_name, MONTH(hire_date) FROM hr.employees;
 
 -- 16. Escreva uma query que exiba os nomes dos funcionários em letra maiúscula.
 
-SELECT LCASE(first_name) FROM hr.employees;
+SELECT UCASE(first_name) FROM hr.employees;
 
 -- 17: Escreva uma query que exiba o sobrenome e a data de contratação de todos os funcionário contratados em julho de 1987.
 
