@@ -124,5 +124,5 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 20: Funções SQL, JOINs e Normalização ](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-20-funcoes-SQL-JOINs-e-normalizacao)
 - [x] 20.1 - Funções mais usadas no SQL
 - [x] 20.2 - Descomplicando JOINs
-- [ ] 20.3 - Transformando ideias em um modelo de banco de dados
-- [ ] 20.4 - Aula ao vivo + Projeto - One For All
+- [x] 20.3 - Transformando ideias em um modelo de banco de dados
+- [x] 20.4 - Aula ao vivo + Projeto - One For All
