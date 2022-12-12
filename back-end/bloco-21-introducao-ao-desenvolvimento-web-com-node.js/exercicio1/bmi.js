@@ -6,7 +6,7 @@ const imcWithHeightInMeters = (weight, height) => {
 };
 
 const main = () => {
-  const peso = readline.question('Qual seu peso? ');
+  const peso = readline.question('Qual seu peso (kg)? ');
   const altura = readline.question('Qual sua altura (cm)? ');
   const resultado = imcWithHeightInMeters(peso, altura/100)
 
