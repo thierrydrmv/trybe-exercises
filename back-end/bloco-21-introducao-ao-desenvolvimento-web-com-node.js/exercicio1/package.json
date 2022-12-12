@@ -4,7 +4,8 @@
   "description": "Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.linkedin.com/in/varela-thierry/)_, estou realizando enquanto estudo na [Trybe](https://www.betrybe.com/) 🚀",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mbi.js"
   },
   "repository": {
     "type": "git",

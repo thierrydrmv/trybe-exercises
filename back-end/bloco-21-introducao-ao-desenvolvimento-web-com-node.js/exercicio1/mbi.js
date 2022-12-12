@@ -1,5 +1,5 @@
-const imc = (peso, altura) => {
-  return peso / (altura * 2)
+const imcWithHeightInMeters = (weight, height) => {
+  return weight / (height * 2)
 };
 
-console.log(imc(80, 1.70));
+console.log(imcWithHeightInMeters(80, 1.70));
