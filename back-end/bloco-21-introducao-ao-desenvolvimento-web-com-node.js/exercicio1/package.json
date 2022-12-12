@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node mbi.js"
+    "start": "node bmi.js",
+    "bmi": "node bmi.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/thierrydrmv/trybe-exercises/issues"
   },
-  "homepage": "https://github.com/thierrydrmv/trybe-exercises#readme"
+  "homepage": "https://github.com/thierrydrmv/trybe-exercises#readme",
+  "dependencies": {
+    "readline-sync": "1.4"
+  }
 }
