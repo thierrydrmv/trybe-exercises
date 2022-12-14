@@ -2,11 +2,11 @@
   "name": "trybe-exercises",
   "version": "1.0.0",
   "description": "Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.linkedin.com/in/varela-thierry/)_, estou realizando enquanto estudo na [Trybe](https://www.betrybe.com/) 🚀",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bmi.js",
-    "bmi": "node bmi.js"
+    "start": "node .",
+    "bmi": "node ."
   },
   "repository": {
     "type": "git",
