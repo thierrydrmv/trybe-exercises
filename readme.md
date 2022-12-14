@@ -126,3 +126,12 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 20.2 - Descomplicando JOINs
 - [x] 20.3 - Transformando ideias em um modelo de banco de dados
 - [x] 20.4 - Aula ao vivo + Projeto - One For All
+
+#### [Bloco 21: Introdução ao desenvolvimento Web com Node.js ](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-21-introducao-ao-desenvolvimento-web-com-node.js)
+
+- [x] 21.1 - Node.js: Runtime Assíncrono
+- [ ] 21.2 - Node.js: API REST com Express
+- [ ] 21.3 - Node.js: Testes de Integração
+- [ ] 21.4 - Node.js: Express e Middlewares
+- [ ] 21.5 - Node.js: Express e MySQL
+- [ ] 21.6 - Projeto - Talker Manager
