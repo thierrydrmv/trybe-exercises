@@ -1,9 +1,9 @@
 const fs = require('fs').promises;
 const path = require('path');
 
-const readMoviesData = () => {
+const readMoviesData = async () => {
   try {
-    const data = fs.readFile(path.resolve(__dirname, '../movies.json'))
+    const data = await fs.readFile(path.resolve(__dirname, '../movies.json'))
     const movies = JSON.parse(data)
     console.log(movies);
   } catch (error) {
