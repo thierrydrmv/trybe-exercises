@@ -1,6 +1,7 @@
 const express = require('express');
 const readMovies = require('./utils/readMovies');
 const addMovies = require('./utils/addNewMovie');
+const editMovies = require('./utils/editMovies');
 
 const app = express();
 
@@ -22,5 +23,14 @@ app.post('/movies', async(req, res) => {
   addMovies(bodyData);
   return res.status(201).send(bodyData);
 });
+
+app.put('/movies/:id', async(req, res) => {
+  const { id } = req.params;
+  const bodyData = req.body;
+  const allMovies = await readMovies();
+  if (!allMovies.find((m) => m.id === Number(id))) return res.status(404).send({message: 'Movie Not Found'})
+  await editMovies(id, bodyData)
+  return res.status(200).send(allMovies)
+})
 
 module.exports = app
