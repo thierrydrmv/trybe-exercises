@@ -8,6 +8,13 @@ const app = express();
 
 app.use(express.json());
 
+app.get('/movies/search', async (req, res) => {
+  const { q } = req.query;
+  const allMovies = await readMovies();
+  const movie = allMovies.filter((m) => (m.movie).toLowerCase().includes(q))
+  return res.status(200).send(movie)
+})
+
 app.get('/movies', async (req, res) => {
   return res.status(200).send(await readMovies());
 });
