@@ -1,8 +1,5 @@
 const express = require('express');
-const readMovies = require('./utils/readMovies');
-const addMovies = require('./utils/addNewMovie');
-const editMovies = require('./utils/editMovies');
-const deleteMovie = require('./utils/deleteMovie');
+const { readMovies, addMovies, editMovies, deleteMovie } = require('./utils');
 
 const app = express();
 
