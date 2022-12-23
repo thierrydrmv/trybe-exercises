@@ -82,6 +82,45 @@ describe('Usando método GET na lista de chocolates', function () {
     expect(response.body.chocolates).to.have.lengthOf(4);
   })
 
+  it('Usando o método GET coletar apenas um chocolate id /chocolates/:id', async function () {
+    const response = await chai.request(app).get('/chocolates/4');
+
+    expect(response.status).to.be.equal(200);
+    expect(response.body).to.deep.equal(
+      {
+        id: 4,
+        name: 'Mounds',
+        brandId: 3,
+      });
+    });
+
+  it('Testando um id inexistente para testar a resposta da API', async function () {
+    const response = await chai.request(app).get('/chocolates/22');
+
+    expect(response.status).to.be.equal(404);
+    expect(response.body).to.deep.equal(
+      { message: 'Id not found' }
+    )
+  })
+
+  it('Testando o método GET em /chocolates/brand/:id', async function () {
+    const response = await chai.request(app).get('/chocolates/brand/1');
+
+    expect(response.status).to.be.equal(200);
+    expect(response.body).to.deep.equal([
+      {
+        "id": 1,
+        "name": "Mint Intense",
+        "brandId": 1
+      },
+      {
+        "id": 2,
+        "name": "White Coconut",
+        "brandId": 1
+      }
+    ])
+  })
+
   it('Usando o método POST cria um novo chocolate', async function () {
     const response = await chai.request(app).post('/chocolates').send(mockChocolate);
     expect(response.body).to.haveOwnProperty('name');

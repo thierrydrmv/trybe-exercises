@@ -10,6 +10,12 @@ app.get('/chocolates', async (_req, res) => {
   return res.status(200).send(chocolate);
 });
 
+app.get('/chocolates/total', async (req, res) => {
+  const chocolates = await readChocolates();
+  
+  return res.status(200).send({ "totalChocolates": chocolates.chocolates.length });
+});
+
 app.get('/chocolates/:id', async (req, res) => {
   const chocolates = await readChocolates();
   const { id } = req.params;
@@ -27,10 +33,11 @@ app.get('/chocolates/brand/:id', async (req, res) => {
 
   const chocolate = chocolates.chocolates.filter((c) => c.brandId === Number(id));
 
-  if (!chocolate) return res.status(404).send({message: 'brandId not found!'});
+  if (!chocolate.length) return res.status(404).send({message: 'brandId not found!'});
 
   return res.status(200).send(chocolate);
 });
+
 
 app.post('/chocolates', async (req, res) => {
   const chocolates = await addChocolate(req.body);
