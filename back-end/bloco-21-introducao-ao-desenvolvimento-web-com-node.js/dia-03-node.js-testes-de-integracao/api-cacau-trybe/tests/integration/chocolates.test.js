@@ -164,4 +164,25 @@ describe('Usando método GET na lista de chocolates', function () {
     await chai.request(app).post('/chocolates').send(mockChocolate);
     expect(fs.promises.writeFile.called).to.be.equal(true);
   });
+
+  it('Edita o chocolate com o método PUT /chocolates/:id', async function () {
+    const editChocolate = { 
+      "name": "Mint Pretty Good",
+      "brandId": 2
+    }
+    const response = await chai.request(app).put('/chocolates/1').send(editChocolate);
+    expect(response.body).to.haveOwnProperty('name');
+    expect(response.status).to.be.equal(200);
+    expect(response.body.name).to.be.equal(editChocolate.name);
+    expect(response.body.brandId).to.be.equal(editChocolate.brandId);
+  })
+
+  it('Testa se o PUT quebra caso não exista o id', async function () {
+    const response = await chai.request(app).put('/chocolates/22');
+    expect(response.status).to.be.equal(404);
+    expect(response.body).to.deep.equal({
+      message: 'Chocolate Id not found',
+    });
+  })
+
 })
