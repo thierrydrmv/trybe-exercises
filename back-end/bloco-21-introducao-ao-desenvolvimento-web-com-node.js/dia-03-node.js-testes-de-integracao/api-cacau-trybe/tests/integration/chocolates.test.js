@@ -121,6 +121,13 @@ describe('Usando método GET na lista de chocolates', function () {
     ])
   })
 
+  it('Usando o método GET retorna todos os chocolates', async function () {
+    const response = await chai.request(app).get('/chocolates/total');
+
+    expect(response.status).to.be.equal(200);
+    expect(response.body).to.deep.equal({ totalChocolates: 4 })
+  })
+
   it('Usando o método POST cria um novo chocolate', async function () {
     const response = await chai.request(app).post('/chocolates').send(mockChocolate);
     expect(response.body).to.haveOwnProperty('name');
@@ -132,5 +139,5 @@ describe('Usando método GET na lista de chocolates', function () {
   it('Escreve um novo chocolate no arquivo de chocolates', async function () {
     await chai.request(app).post('/chocolates').send(mockChocolate);
     expect(fs.promises.writeFile.called).to.be.equal(true);
-  })
+  });
 })
