@@ -129,7 +129,7 @@ describe('Usando método GET na lista de chocolates', function () {
   });
 
   it('Usando o método GET com a chave query Mo', async function () {
-    const response = await chai.request(app).get('/chocolates/search?q=Mo');
+    const response = await chai.request(app).get('/chocolates/search?q=mo');
 
     expect(response.status).to.be.equal(200);
     expect(response.body).to.deep.equal([
