@@ -14,8 +14,8 @@ const readChocolates = async () => {
 const addChocolate = async (newChocolate) => {
   try {
     const data = await readChocolates();
-    const newChocolateList = [...data, {id: data.length + 1, ...newChocolate}]
-    const stringfy = JSON.stringify(newChocolateList);
+    const newChocolateList = [...data.chocolates, {id: data.chocolates.length + 1, ...newChocolate}]
+    const stringfy = JSON.stringify({...data, chocolates: newChocolateList});
     await fs.writeFile(path.resolve(__dirname, '../../data/chocolates.json'), stringfy);
     return newChocolateList[newChocolateList.length -1];
   } catch (error) {

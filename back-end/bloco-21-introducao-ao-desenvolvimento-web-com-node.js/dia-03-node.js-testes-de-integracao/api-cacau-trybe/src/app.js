@@ -14,7 +14,7 @@ app.get('/chocolates/:id', async (req, res) => {
   const chocolates = await readChocolates();
   const { id } = req.params;
 
-  const chocolate = chocolates.find((c) => c.id === Number(id));
+  const chocolate = chocolates.chocolates.find((c) => c.id === Number(id));
 
   if (!chocolate) return res.status(404).send({message: 'Id not found'});
 
@@ -25,7 +25,7 @@ app.get('/chocolates/brand/:id', async (req, res) => {
   const chocolates = await readChocolates();
   const { id } = req.params;
 
-  const chocolate = chocolates.find((c) => c.brandId === Number(id));
+  const chocolate = chocolates.chocolates.filter((c) => c.brandId === Number(id));
 
   if (!chocolate) return res.status(404).send({message: 'brandId not found!'});
 
