@@ -1,5 +1,5 @@
 const express = require('express');
-const {readChocolates, addChocolate} = require('./utils/fsUtils');
+const {readChocolates, addChocolate, editChocolate} = require('./utils/fsUtils');
 
 const app = express();
 
@@ -49,11 +49,20 @@ app.get('/chocolates/brand/:id', async (req, res) => {
   return res.status(200).send(chocolate);
 });
 
-
 app.post('/chocolates', async (req, res) => {
   const chocolates = await addChocolate(req.body);
 
   return res.status(201).send(chocolates);
+});
+
+app.put('/chocolates/:id', async (req, res) => {
+  const chocolates = await readChocolates();
+  const { id } = req.params;
+  const chocolate = chocolates.chocolates.find((c) => c.id === Number(id));
+  if (!chocolate) return res.status(404).send({message: 'Chocolate Id not found'});
+  await editChocolate(id, req.body);
+
+  return res.status(200).send({id: Number(id), ...req.body})
 })
 
 module.exports = app;

@@ -23,4 +23,16 @@ const addChocolate = async (newChocolate) => {
   }
 }
 
-module.exports = { readChocolates, addChocolate };
+const editChocolate = async (id, obj) => {
+  try {
+    const data = await readChocolates();
+    const changeData = data.chocolates.map((chocolate) => chocolate.id === Number(id) ? {...chocolate, ...obj} : chocolate);
+    const stringfy = JSON.stringify({...data, chocolates: changeData});
+    await fs.writeFile(path.resolve(__dirname, '../../data/chocolates.json'), stringfy);
+    return stringfy;
+  } catch (error) {
+    console.log('Não foi possível editar o chocolate');
+  }
+}
+
+module.exports = { readChocolates, addChocolate, editChocolate };
