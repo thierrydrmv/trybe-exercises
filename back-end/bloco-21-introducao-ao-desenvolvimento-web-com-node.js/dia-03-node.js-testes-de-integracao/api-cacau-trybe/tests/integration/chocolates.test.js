@@ -126,6 +126,30 @@ describe('Usando método GET na lista de chocolates', function () {
 
     expect(response.status).to.be.equal(200);
     expect(response.body).to.deep.equal({ totalChocolates: 4 })
+  });
+
+  it('Usando o método GET com a chave query Mo', async function () {
+    const response = await chai.request(app).get('/chocolates/search?q=Mo');
+
+    expect(response.status).to.be.equal(200);
+    expect(response.body).to.deep.equal([
+      {
+        "id": 3,
+        "name": "Mon Chéri",
+        "brandId": 2
+      },
+      {
+        "id": 4,
+        "name": "Mounds",
+        "brandId": 3
+      }
+    ])
+  })
+
+  it('Usando o método GET com a chave query mas sem resposta', async function () {
+    const response = await chai.request(app).get('/chocolates/search?q=xablau');
+    expect(response.status).to.be.equal(404);
+    expect(response.body).to.deep.equal([]);
   })
 
   it('Usando o método POST cria um novo chocolate', async function () {
