@@ -130,8 +130,8 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 21: Introdução ao desenvolvimento Web com Node.js ](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-21-introducao-ao-desenvolvimento-web-com-node.js)
 
 - [x] 21.1 - Node.js: Runtime Assíncrono
-- [ ] 21.2 - Node.js: API REST com Express
-- [ ] 21.3 - Node.js: Testes de Integração
+- [x] 21.2 - Node.js: API REST com Express
+- [x] 21.3 - Node.js: Testes de Integração
 - [ ] 21.4 - Node.js: Express e Middlewares
 - [ ] 21.5 - Node.js: Express e MySQL
 - [ ] 21.6 - Projeto - Talker Manager
