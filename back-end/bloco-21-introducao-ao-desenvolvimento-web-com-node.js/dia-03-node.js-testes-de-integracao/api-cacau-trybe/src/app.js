@@ -1,5 +1,5 @@
 const express = require('express');
-const { readChocolates, addChocolate, editChocolate, readChocolatesById, readChocolatesByBrandId, readChocolatesByName } = require('./utils/fsUtils');
+const { readChocolates, addChocolate, editChocolate, readChocolatesById, readChocolatesByBrandId, readChocolatesByName, removeChocolate } = require('./utils/fsUtils');
 
 const app = express();
 
@@ -56,9 +56,18 @@ app.put('/chocolates/:id', async (req, res) => {
   const { id } = req.params;
   await editChocolate(id, req.body);
   const chocolate = chocolates.chocolates.find((c) => c.id === Number(id));
-  if (!chocolate) return res.status(404).json({message: 'Chocolate Id not found'});
+  if (!chocolate) return res.status(404).json({ message: 'Chocolate Id not found' });
 
   return res.status(200).json({id: Number(id), ...req.body})
+});
+
+app.delete('/chocolates/:id', async (req, res) => {
+  const chocolates = await readChocolates();
+  const { id } = req.params;
+  await removeChocolate(id);
+  const chocolate = chocolates.chocolates.find((c) => c.id === Number(id));
+  if (!chocolate) return res.status(404).json({ message: 'Id not found' });
+  return res.status(204).end();
 })
 
 module.exports = app;

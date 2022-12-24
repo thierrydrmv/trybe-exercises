@@ -68,4 +68,16 @@ const editChocolate = async (id, obj) => {
   }
 }
 
-module.exports = { readChocolates, addChocolate, editChocolate, readChocolatesById, readChocolatesByBrandId, readChocolatesByName };
+const removeChocolate = async (id) => {
+  const chocolates = await readChocolates();
+  const index = chocolates.chocolates.findIndex((c) => c.id === Number(id));
+  chocolates.chocolates.splice(index, 1);
+  try {
+    await fs.writeFile(path.resolve(__dirname, '../../data/chocolates.json'), JSON.stringify(chocolates, null, 2));
+    return chocolates;
+  } catch (error) {
+    console.log('Não foi possível remover esse chocolate');    
+  }
+}
+
+module.exports = { readChocolates, addChocolate, editChocolate, readChocolatesById, readChocolatesByBrandId, readChocolatesByName, removeChocolate };
