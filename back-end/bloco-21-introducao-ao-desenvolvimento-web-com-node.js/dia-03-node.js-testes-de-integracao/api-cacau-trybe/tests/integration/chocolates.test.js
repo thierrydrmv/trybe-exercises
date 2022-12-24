@@ -193,5 +193,19 @@ describe('Usando método GET na lista de chocolates', function () {
         message: 'Chocolate Id not found',
       });
     })
+
+    describe('Utilizando o método DELETE para remover chocolates', function () {
+      it('Remove um chocolate com o método DELETE /chocolates/:id', async function () {
+        const response = await chai.request(app).delete('/chocolates/2');
+        expect(response.status).to.be.equal(204);
+      })
+
+      it('Se não possui chocolate com esse Id gera erro', async function () {
+        const response = await chai.request(app).delete('/chocolate/11');
+        expect(response.status).to.be.equal(404);
+        console.log(response);
+        expect(response.body).to.deep.equal({ message: 'Id not found'})
+      })
+    })
   })
 })
