@@ -159,8 +159,11 @@ describe('Usando método GET na lista de chocolates', function () {
       const response = await chai.request(app).post('/chocolates').send(mockChocolate);
       expect(response.body).to.haveOwnProperty('name');
       expect(response.status).to.be.equal(201);
-      expect(response.body.name).to.be.equal(mockChocolate.name);
-      expect(response.body.brandId).to.be.equal(mockChocolate.brandId);
+      expect(response.body).to.deep.equal({
+        "id": 5,
+        "name": "Milka",
+        "brandId": 5
+      });
     });
   
     it('Escreve um novo chocolate no arquivo de chocolates', async function () {
