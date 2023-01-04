@@ -1,8 +1,10 @@
 const express = require('express');
-const router = require('./routes/activitiesRouter');
+const activitiesRouter = require('./routes/activitiesRouter');
+const signUpRouter = require('./routes/signUpRouter');
 
 const app = express();
 
-app.use(router);
+app.use(activitiesRouter);
+app.use(signUpRouter);
 
 module.exports = app;
