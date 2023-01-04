@@ -132,6 +132,6 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 21.1 - Node.js: Runtime Assíncrono
 - [x] 21.2 - Node.js: API REST com Express
 - [x] 21.3 - Node.js: Testes de Integração
-- [ ] 21.4 - Node.js: Express e Middlewares
-- [ ] 21.5 - Node.js: Express e MySQL
-- [ ] 21.6 - Projeto - Talker Manager
+- [x] 21.4 - Node.js: Express e Middlewares
+- [x] 21.5 - Node.js: Express e MySQL
+- [x] 21.6 - Projeto - Talker Manager
