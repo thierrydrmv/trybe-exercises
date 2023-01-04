@@ -1,25 +1,13 @@
 const express = require('express');
 const validateTeamBody = require('./middlewares/validateTeamBody');
+const existingId = require('./middlewares/validateExistingId');
+const teams = require('./file/data');
 
 const app = express();
 
 let nextId = 3;
-const teams = [
-  { id: 1, nome: 'São Paulo Futebol Clube', sigla: 'SPF' },
-  { id: 2, nome: 'Sociedade Esportiva Palmeiras', sigla: 'PAL' },
-];
 
 app.use(express.json());
-
-const existingId = (req, res, next) => {
-  const id = Number(req.params.id);
-  const team = teams.find((t) => t.id === id);
-  if(team) {
-    next();
-  } else {
-    return res.status(404).send({message: 'Id not found'});
-  }
-}
 
 app.get('/teams', (req, res) => res.json(teams));
 
