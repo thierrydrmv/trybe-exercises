@@ -5,7 +5,7 @@ const validationCreateAt = require('./validationCreatedAt');
 const validationRating = require('./validationRating');
 const validationDifficulty = require('./validationDifficulty');
 const validationNewUser = require('./validationNewUser');
-const authenticationUser = require('./authenticationUser');
+const auth = require('./auth');
 
 module.exports = { 
   validationName, 
@@ -15,5 +15,5 @@ module.exports = {
   validationRating, 
   validationDifficulty,
   validationNewUser,
-  authenticationUser
+  auth
 };
