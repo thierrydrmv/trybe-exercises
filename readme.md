@@ -135,3 +135,10 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 21.4 - Node.js: Express e Middlewares
 - [x] 21.5 - Node.js: Express e MySQL
 - [x] 21.6 - Projeto - Talker Manager
+
+#### [Bloco 22: Arquitetura de Software: Model, Service e Controller ](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-22-arquitetura-de-software-model-service-e-controller)
+
+- [x] 22.1 - Arquitetura de Software: Camada Model
+- [x] 22.2 - Arquitetura de Software: Camada Service
+- [x] 22.3 - Arquitetura de Software: Camada Controller
+- [x] 22.4 - Projeto - Store Manager
