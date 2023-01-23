@@ -33,7 +33,7 @@ const editActor = async ({ id, body }) => {
   const actor = await actorsModel.findById(id);
   if(!actor) return { type: 'ACTOR_NOT_FOUND', message: 'Actor not found' };
 
-  const result = await actorsModel.editActor({id, ...body});
+  const result = await actorsModel.editActor({ id, ...body });
   return { type: null, message: result }
 }
 
