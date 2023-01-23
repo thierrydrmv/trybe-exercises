@@ -142,3 +142,11 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 22.2 - Arquitetura de Software: Camada Service
 - [x] 22.3 - Arquitetura de Software: Camada Controller
 - [x] 22.4 - Projeto - Store Manager
+
+#### [Bloco 23: Node.js: ORM e Autenticação](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-23-node.js-ORM-e-autenticacao/)
+
+- [x] 23.1 - ORM - Interface da aplicação com o banco de dados
+- [ ] 23.2 - ORM - Associations 1:1 e 1:N
+- [ ] 23.3 - ORM - Associations N:N e Transactions
+- [ ] 23.4 - JWT - (JSON Web Token)
+- [ ] 23.5 - Projeto - API de Blogs
