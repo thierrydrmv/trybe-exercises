@@ -4,7 +4,7 @@ const mapError = require('../utils/errorMap');
 const allActors = async (_req, res) => {
   const { message } = await actorsService.findAll();
 
-  return res.status(200).send(message)
+  return res.status(200).json(message)
 }
 
 const findById = async (req, res) => {
