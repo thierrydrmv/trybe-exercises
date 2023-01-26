@@ -147,6 +147,6 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 - [x] 23.1 - ORM - Interface da aplicação com o banco de dados
 - [x] 23.2 - ORM - Associations 1:1 e 1:N
-- [ ] 23.3 - ORM - Associations N:N e Transactions
-- [ ] 23.4 - JWT - (JSON Web Token)
-- [ ] 23.5 - Projeto - API de Blogs
+- [x] 23.3 - ORM - Associations N:N e Transactions
+- [x] 23.4 - JWT - (JSON Web Token)
+- [x] 23.5 - Projeto - API de Blogs
