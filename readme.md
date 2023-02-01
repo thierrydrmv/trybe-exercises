@@ -151,7 +151,7 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 23.4 - JWT - (JSON Web Token)
 - [x] 23.5 - Projeto - API de Blogs
 
-#### [Bloco 24: Introdução a TypeScript](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-24-introducao-a-typescript)
+#### [Bloco 24: Introdução ao TypeScript](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-24-introducao-a-typescript)
 
 - [x] 24.1 - Introdução ao TypeScript
 - [ ] 24.2 - Tipagem Estática e Generics
