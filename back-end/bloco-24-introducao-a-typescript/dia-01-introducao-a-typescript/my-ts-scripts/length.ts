@@ -1,4 +1,5 @@
-const convert = (valor: number, unidade: string, conversao: string): number => {
+import convert from './convert'
+
   const values: Values[] = [
     { nome: 'Quilômetro', simbolo:'km',	valor: 1000},
     { nome: 'Hectômetro', simbolo:'hm',	valor: 100},
@@ -8,15 +9,11 @@ const convert = (valor: number, unidade: string, conversao: string): number => {
     { nome: 'Centímetro', simbolo:'cm',	valor: 0.01},
     { nome: 'Milímetro', simbolo:'mm',	valor: 0.001},
   ]
-  const simbolos = values.map((e) => e.simbolo);
-    const valorUnidadeRecebida = simbolos.indexOf(unidade);
-    const valorConversao = simbolos.indexOf(conversao);
-
-  return valor * (values[valorUnidadeRecebida].valor / values[valorConversao].valor);
-}
 
 interface Values {
   nome: string
   simbolo: string,
   valor: number
 }
+
+console.log(convert(22, 'm', 'cm', values))
