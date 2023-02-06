@@ -154,6 +154,6 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 24: Introdução ao TypeScript](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-24-introducao-a-typescript)
 
 - [x] 24.1 - Introdução ao TypeScript
-- [ ] 24.2 - Tipagem Estática e Generics
-- [ ] 24.3 - Express com TypeScript
-- [ ] 24.4 - Projeto - Trybesmith
+- [x] 24.2 - Tipagem Estática e Generics
+- [x] 24.3 - Express com TypeScript
+- [x] 24.4 - Projeto - Trybesmith
