@@ -38,15 +38,14 @@ class Alimento {
 
 class Pedido {
   private _cliente: Cliente;
-  private _item: Alimento[] = [];
+  private _item: Alimento[];
   private _pagamento: string;
   private _desconto?: number;
 
-  constructor(cliente: Cliente, item: Alimento[], pagamento: string, desconto: number){
+  constructor(cliente: Cliente, item: Alimento[], pagamento: string){
     this._cliente = cliente;
     this._item = item;
     this._pagamento = pagamento;
-    this._desconto = desconto;
   }
 
   get cliente(): Cliente{
@@ -86,8 +85,10 @@ const cliente = new Cliente('Roberto');
 
 const alimento = new Alimento('Coxinha', 4);
 const bebida = new Alimento('Coca geladinha', 5);
+const doce = new Alimento('Bombom', 3);
 
-const pedido = new Pedido(cliente, [alimento, bebida], 'dinheiro', 0.25);
+const pedido = new Pedido(cliente, [alimento, bebida, doce], 'dinheiro');
+pedido.desconto = 0.3
 
 console.log(pedido.total());
 console.log(pedido.totalComDesconto());
