@@ -161,7 +161,7 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 25: Programação Orientada a Objetos (POO) e SOLID](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-25-programacao-orientada-a-objetos-POO-e-SOLID)
 
 - [x] 25.1 - Introdução à Orientação a Objetos
-- [ ] 25.2 - Herança e Composição
+- [x] 25.2 - Herança e Composição
 - [ ] 25.3 - Polimorfismo
 - [ ] 25.4 - SOLID - Introdução e Princípios S, O e D
 - [ ] 25.5 - SOLID - Princípios L e I
