@@ -34,7 +34,7 @@ class Teacher extends Person implements Employee {
     return this._salary;
   }
   set salary(salary: number){
-    this.salary = salary;
+    this._salary = salary;
   }
   get admissionDate(){
     return this._admissionDate;
@@ -47,3 +47,7 @@ class Teacher extends Person implements Employee {
     return enrollment;
   }
 }
+
+const person = new Teacher('Thierry', new Date('1997/03/21'), 3000, new Class('Desenvolvimento Web'))
+
+console.log(person);
