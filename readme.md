@@ -163,6 +163,6 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 25.1 - Introdução à Orientação a Objetos
 - [x] 25.2 - Herança e Composição
 - [x] 25.3 - Polimorfismo
-- [ ] 25.4 - SOLID - Introdução e Princípios S, O e D
-- [ ] 25.5 - SOLID - Princípios L e I
-- [ ] 25.6 - Projeto - Trybers and Dragons
+- [x] 25.4 - SOLID - Introdução e Princípios S, O e D
+- [x] 25.5 - SOLID - Princípios L e I
+- [x] 25.6 - Projeto - Trybers and Dragons
