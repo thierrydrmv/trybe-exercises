@@ -166,3 +166,11 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 25.4 - SOLID - Introdução e Princípios S, O e D
 - [x] 25.5 - SOLID - Princípios L e I
 - [x] 25.6 - Projeto - Trybers and Dragons
+
+#### [Bloco 26: Introdução ao MongoDB](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-26-introducao-ao-MongoDB/)
+
+- [x] 26.1 - MongoDB - Introdução
+- [ ] 26.2 - Filter Operators
+- [ ] 26.3 - Operadores de consulta
+- [ ] 26.4 - Updates Simples
+- [ ] 26.5 - Updates Complexos - Arrays
