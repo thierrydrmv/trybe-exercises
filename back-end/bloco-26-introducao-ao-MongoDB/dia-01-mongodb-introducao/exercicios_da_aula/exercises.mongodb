@@ -315,7 +315,9 @@ db.bios.find({}).limit(2).skip(5)
 // docker cp books.json exercicios_da_aula-mongo-1:/tmp/books.json
 
 // Populando os dados no banco
-// docker cp exercicios_da_aula-mongo-1 mongoimport -d bookList -c books --file /tmp/books.json --jsonArray
+// docker exec exercicios_da_aula-mongo-1 mongoimport -d bookList -c books --file /tmp/books.json --jsonArray
+// Executando dentro do container
+// mongoimport -d bookList -c books --file /tmp/books.json --jsonArray
 
 // 🚀 Exercício 7: Retorne a quantidade de documentos da coleção books.
 use('bookList')
