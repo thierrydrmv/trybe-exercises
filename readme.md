@@ -171,6 +171,6 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 - [x] 26.1 - MongoDB - Introdução
 - [x] 26.2 - Filter Operators
-- [ ] 26.3 - Operadores de consulta
+- [x] 26.3 - Operadores de consulta
 - [ ] 26.4 - Updates Simples
 - [ ] 26.5 - Updates Complexos - Arrays
