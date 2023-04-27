@@ -174,3 +174,7 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 26.3 - Operadores de consulta
 - [x] 26.4 - Updates Simples
 - [x] 26.5 - Updates Complexos - Arrays
+
+#### [Bloco 27: APIs OO e NoSQL](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-27-apis-oo-e-nosql/)
+
+- [x] 27.1 - APIs orientadas a objetos e NoSQL: POO e ODMs
