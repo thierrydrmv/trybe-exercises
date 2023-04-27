@@ -18,9 +18,3 @@ Exercício 4:
 Quais são os 4 pilares da programação orientada a objetos? Discorra sobre a definição de cada um deles e dê exemplos
 
 Encapsulamento(limitar o acesso aos atributos da classe), herança(criar classes filhas de outras classes), polimorfismo(criar métodos com o mesmo nome mas com respostas diferentes em classes filhas), abstração(abstrai a lógica dentro do método, precisando apenas chama-lo após instância-lo).
-
-Exercício 5: 🚀
-Agora incremente a aplicação TRIX e adicione mais um endpoint , que deve retornar todas as transferências:
-
-Exercício 6: 🚀
-Ainda na aplicação TRIX, crie um novo endpoint que deve retornar todas as transferências de uma determinada chave (key)
