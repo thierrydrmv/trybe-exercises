@@ -182,5 +182,5 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 28: Introdução à Python](https://github.com/thierrydrmv/trybe-exercises/tree/main/ciencia-da-computacao/bloco-28-introducao-a-python/)
 
 - [x] 28.1 - Aprendendo Python
-- [x] 28.2 - Entrada e Saída de Dados
-- [x] 28.3 - Testes
+- [ ] 28.2 - Entrada e Saída de Dados
+- [ ] 28.3 - Testes
