@@ -178,3 +178,9 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 #### [Bloco 27: APIs OO e NoSQL](https://github.com/thierrydrmv/trybe-exercises/tree/main/back-end/bloco-27-apis-oo-e-nosql/)
 
 - [x] 27.1 - APIs orientadas a objetos e NoSQL: POO e ODMs
+
+#### [Bloco 28: Introdução à Python](https://github.com/thierrydrmv/trybe-exercises/tree/main/ciencia-da-computacao/bloco-28-introducao-a-python/)
+
+- [x] 28.1 - Aprendendo Python
+- [x] 28.2 - Entrada e Saída de Dados
+- [x] 28.3 - Testes
