@@ -1,0 +1,7 @@
+nome idade
+Maria 45
+Miguel 33
+Thierry 25
+
+José 22
+Maria 70
