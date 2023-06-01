@@ -183,4 +183,4 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 - [x] 28.1 - Aprendendo Python
 - [x] 28.2 - Entrada e Saída de Dados
-- [ ] 28.3 - Testes
+- [x] 28.3 - Testes
