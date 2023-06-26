@@ -179,8 +179,28 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 
 - [x] 27.1 - APIs orientadas a objetos e NoSQL: POO e ODMs
 
+## Módulo: Ciência da Computação ⏳
+
 #### [Bloco 28: Introdução à Python](https://github.com/thierrydrmv/trybe-exercises/tree/main/ciencia-da-computacao/bloco-28-introducao-a-python/)
 
 - [x] 28.1 - Aprendendo Python
 - [x] 28.2 - Entrada e Saída de Dados
 - [x] 28.3 - Testes
+
+#### [Bloco 29: Algoritmos](https://github.com/thierrydrmv/trybe-exercises/tree/main/ciencia-da-computacao/bloco-29-algoritmos)
+
+- [x] 29.1 - Complexidade de Algoritmos
+- [x] 29.2 - Recursividade e Estratégias para Solução de Problemas
+- [x] 29.3 - Algoritmos de ordenação e busca
+
+#### [Bloco 30: Estrutura de Dados I: Listas Lineares](https://github.com/thierrydrmv/trybe-exercises/tree/main/ciencia-da-computacao/bloco-30-estrutura-de-dados-l-listas-lineares)
+
+- [x] 30.1 - P.O.O em Python
+- [x] 30.2 - Arrays
+- [x] 30.3 - Nó e Listas Encadeadas
+- [x] 30.4 - Pilhas e Filas
+
+#### [Bloco 31: Estruturas de Dados II: Hashmaps e Sets: Listas Lineares](https://github.com/thierrydrmv/trybe-exercises/tree/main/ciencia-da-computacao/)
+
+- [x] 31.1 - Hashmap e Dict
+- [x] 31.2 - Set
