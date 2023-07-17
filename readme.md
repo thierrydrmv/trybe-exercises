@@ -200,7 +200,7 @@ Esse repositório contem os exercícios que eu _[Thierry Varela](https://www.lin
 - [x] 30.3 - Nó e Listas Encadeadas
 - [x] 30.4 - Pilhas e Filas
 
-#### [Bloco 31: Estruturas de Dados II: Hashmaps e Sets: Listas Lineares]https://github.com/thierrydrmv/trybe-exercises/tree/main/ciencia-da-computacao/bloco-31-estrutura-de-dados-ll-hashmaps-e-sets)
+#### [Bloco 31: Estruturas de Dados II: Hashmaps e Sets: Listas Lineares](https://github.com/thierrydrmv/trybe-exercises/tree/main/ciencia-da-computacao/bloco-31-estrutura-de-dados-ll-hashmaps-e-sets)
 
 - [x] 31.1 - Hashmap e Dict
 - [x] 31.2 - Set
